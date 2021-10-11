@@ -283,6 +283,11 @@ footer .footer {
         margin: auto;
     }
 
+    #plans h2 {
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+
     .plan-list {
         flex-direction: column;
         align-items: flex-start;
