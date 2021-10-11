@@ -24,6 +24,7 @@ div img {
     max-width: 992px;
     margin: auto;
     width: 100%;
+    min-width: 320px;
 }
 
 header {
@@ -244,4 +245,47 @@ footer {
 footer .footer {
     justify-content: space-around;
     color: #ffffff;  
+}
+
+/* mobile */
+
+@media(max-width: 992px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .presentation {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    #quem-somos {
+       flex-direction: column-reverse; 
+    }
+
+    #quem-somos {
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .service-list {
+        flex-direction: column;
+    }
+
+    .service-item img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .plan-list {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .plan-list .plan-item {
+        max-width: 90%;
+        margin: auto;
+        width: 100%
+    }
 }
