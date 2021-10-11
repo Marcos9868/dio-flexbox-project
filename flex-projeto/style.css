@@ -194,6 +194,7 @@ header .menu {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
 }
 
 .plan-item h3::after {
@@ -209,4 +210,18 @@ header .menu {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+}
+
+.plan-item ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.plan-item ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
 }
