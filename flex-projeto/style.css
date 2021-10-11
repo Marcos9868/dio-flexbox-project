@@ -190,6 +190,7 @@ header .menu {
     margin-right: 20px;
     padding: 10px;
     max-width: 240px;
+    
 }
 
 .plan-item .button {
@@ -268,6 +269,11 @@ footer .footer {
         margin: auto;
     }
 
+    #services h2 {
+        align-items: center;
+        margin-left: 180px;
+    }
+
     .service-list {
         flex-direction: column;
     }
@@ -286,6 +292,11 @@ footer .footer {
     .plan-list .plan-item {
         max-width: 90%;
         margin: auto;
-        width: 100%
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .footer {
+      align-items: center;  
     }
 }
