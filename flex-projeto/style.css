@@ -170,6 +170,11 @@ header .menu {
 #plans{
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 50px;
+}
+
+#plans h2 {
+    font-size: 32px;
 }
 
 .plan-list {
@@ -212,6 +217,7 @@ header .menu {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .plan-item ul li {
@@ -226,4 +232,16 @@ header .menu {
     height: 10px;
     background-color: #122A57;
     margin-right: 5px;
+}
+
+footer {
+    background-color: #122A57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer {
+    justify-content: space-around;
+    color: #ffffff;  
 }
