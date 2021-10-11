@@ -18,8 +18,42 @@ ul li a {
     display: flex;
     max-width: 992px;
     margin: auto;
+    width: 100%;
 }
 
 header {
     background-color: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+header .list-items{
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+}
+
+.list-items li a{
+    color: #ffffff;
+}
+
+header .menu {
+    justify-content: space-between;
+}
+
+.presentation {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation .presentation-text {
+    min-height: 200px;
+}
+
+.presentation-text h1 {
+    color: #122A57;
 }
