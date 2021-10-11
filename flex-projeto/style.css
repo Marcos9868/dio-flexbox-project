@@ -129,7 +129,7 @@ header .menu {
 
 .service-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .service-item {
@@ -150,4 +150,19 @@ header .menu {
     margin-top: 20px;
     line-height: 50px;
     padding: 5px 10px;
+    color:#122A57;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.service-item p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.service-item img {
+    width: 80%;
+    margin: auto;
 }
